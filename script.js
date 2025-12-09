@@ -23,6 +23,14 @@ const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Languag
 
 ////////// MAKE YOUR UPDATES WITHIN THIS SECTION //// 
 
+Admin.splice(3)
+Admin.shift()
+Admin.shift()
+Admin.push("Drysdale", "Simpkins", "Woodham")
+
+CTE.splice()
+CTE.pop()
+
 
 
 
