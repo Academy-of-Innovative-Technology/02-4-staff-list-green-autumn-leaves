@@ -16,8 +16,6 @@ let
 	Support = ["Kabir", "Minto"],
 	SSC = ["Stephine"];
 
-const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC];
-
 //////// DO NOT EDIT ABOVE THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
@@ -95,6 +93,6 @@ Maths.push("Koelsch","Minto", "Forth", "Wong");
 //////// DO NOT EDIT BELOW THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
-
+const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC];
 
 e("table").innerHTML = createTableCotents();
