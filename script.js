@@ -23,13 +23,32 @@ const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Languag
 
 ////////// MAKE YOUR UPDATES WITHIN THIS SECTION //// 
 
-Admin.splice(3)
-Admin.shift()
-Admin.shift()
-Admin.push("Drysdale", "Simpkins", "Woodham")
+Admin.splice(3);
+Admin.shift();
+Admin.shift();
+Admin.push("Drysdale", "Simpkins");
 
-CTE.splice()
-CTE.pop()
+
+Office.splice(0);
+Office.push("Martinez", "Tirado"," Valentin" );
+
+
+
+CTE.splice(1,4);
+CTE.pop();
+CTE.push("Frazer"," Gomes", "Pelzer", "Pierre", "Ramsawak", "Rahimi");
+
+
+Counselor.splice(0);
+Counselor.push("Desroches", "Cooper", "Mollina")
+
+
+History.splice(0,1);
+History.splice(1,2);
+History.push("Urena")
+
+Maths.pop();
+Maths.push("Koelsch","Minto", "Forth", "Wong");
 
 
 
