@@ -16,6 +16,8 @@ let
 	Support = ["Kabir", "Minto"],
 	SSC = ["Stephine"];
 
+
+
 //////// DO NOT EDIT ABOVE THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
@@ -34,7 +36,8 @@ Office.push("Martinez", "Tirado"," Valentin" );
 
 CTE.splice(1,4);
 CTE.pop();
-CTE.push("Frazer"," Gomes", "Pelzer", "Pierre", "Ramsawak", "Rahimi");
+CTE.push("Frazer"," Gomes", "Pelzer", "Pierre", "Ramsawak", "Rahimi","Sullivan");
+CTE.sort();
 
 
 Counselor.splice(0);
@@ -48,40 +51,32 @@ History.push("Urena")
 Maths.pop();
 Maths.push("Koelsch","Minto", "Forth", "Wong");
 
+Gym.splice(1);
+Gym.push("Mcalary")
+
+Dean.splice(1,1)
+Dean.push("David")
+
+Language.splice(0,5)
+Language.push( "Nowakowski", "Vallejo")
+
+Science.splice(0)
+Science.push( "lynch" , "Davies")
+
+English.splice(0)
+English.push("Grant", "Griszell", "Gomez", "Tavares")
+
+Support.pop()
+Support.push("Slater","Sherman",  "Rodriguez", "Steele", "David")
+Support.sort()
+
+SSC.splice(0)
+SSC.push("Guzman")
 
 
+let Paraprofessional = [];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Paraprofessional.push("Albsi","Camila","Colter", "Ward", "Ahad", "Shand", "Nicholson", "J.Grant", "Belton", "Damari");
 
 
 
@@ -93,6 +88,6 @@ Maths.push("Koelsch","Minto", "Forth", "Wong");
 //////// DO NOT EDIT BELOW THIS LINE ////////////////
 /////////////////////////////////////////////////////
 
-const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC];
+const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Language, Science, English, Support, SSC, Paraprofessional];
 
 e("table").innerHTML = createTableCotents();
