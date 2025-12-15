@@ -41,7 +41,12 @@ CTE.sort();
 
 
 Counselor.splice(0);
-Counselor.push("Desroches", "Cooper", "Mollina")
+Counselor.push("Mollina")
+
+
+let Guidance = [];
+
+Guidance.push("Desroches", "Cooper");
 
 
 History.splice(0,1);
@@ -55,19 +60,19 @@ Gym.splice(1);
 Gym.push("Mcalary")
 
 Dean.splice(1,1)
-Dean.push("David")
+
 
 Language.splice(0,5)
 Language.push( "Nowakowski", "Vallejo")
 
 Science.splice(0)
-Science.push( "lynch" , "Davies")
+Science.push( "lynch" , "Davies", "Boswell")
 
 English.splice(0)
 English.push("Grant", "Griszell", "Gomez", "Tavares")
 
 Support.pop()
-Support.push("Slater","Sherman",  "Rodriguez", "Steele", "David")
+Support.push("Slater","Sherman",  "Rodriguez", "Steele", "David");
 Support.sort()
 
 SSC.splice(0)
